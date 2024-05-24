@@ -2,12 +2,12 @@
 setlocal
 
 rem MySQL database credentials
-set DB_USER=root
-set DB_PASS=""
-set DB_NAME=hfsp_db
+set DB_USER="username"
+set DB_PASS="password"
+set DB_NAME="database name"
 
 rem Backup directory
-set "BACKUP_DIR=C:\Users\ALIEN0X\Desktop\HFS Policies\SQL Backup"
+set "BACKUP_DIR=Filepath"
 
 rem Ensure backup directory exists
 if not exist "%BACKUP_DIR%" (
